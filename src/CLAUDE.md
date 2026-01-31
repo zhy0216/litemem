@@ -7,6 +7,5 @@
 
 | ID | Time | T | Title | Read |
 |----|------|---|-------|------|
-| #172 | 2:36 PM | ✅ | Moved tsconfig.json to project root | ~256 |
-| #171 | " | ✅ | Moved package.json to project root | ~226 |
+| #174 | 2:36 PM | 🔄 | Removed duplicate configuration files from src directory | ~270 |
 </claude-mem-context>

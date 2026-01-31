@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "bun run src/index.ts",
     "mcp": "bun run src/mcp/server.ts",
-    "test": "bun test"
+    "test": "bun test",
+    "benchmark": "bun run benchmark/run.ts",
+    "benchmark:verify": "bun run benchmark/verify.ts",
+    "benchmark:convert": "bun run benchmark/convert.ts"
   },
   "dependencies": {
     "@libsql/client": "^0.14.0",

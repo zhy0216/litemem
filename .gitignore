@@ -28,3 +28,10 @@ logs/
 
 # Config with secrets
 config.json
+
+# Benchmark
+benchmark/config.json
+benchmark/locomo/
+benchmark/results/
+benchmark/*.db
+benchmark/*.db-*
