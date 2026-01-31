@@ -1,0 +1,25 @@
+{
+  "messagesUse": "user_only",
+  "metadataGenerate": true,
+  "textSummary": true,
+  "retrieveStrategy": "embedding",
+  "update": "offline",
+  "llm": {
+    "apiKey": "${OPENROUTER_API_KEY}",
+    "baseUrl": "https://openrouter.ai/api/v1",
+    "model": "openai/gpt-4o-mini",
+    "maxTokens": 4096
+  },
+  "embedder": {
+    "apiKey": "${OPENROUTER_API_KEY}",
+    "baseUrl": "https://openrouter.ai/api/v1",
+    "model": "openai/text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "turso": {
+    "url": "file:./litemem.db"
+  },
+  "logging": {
+    "level": "info"
+  }
+}
